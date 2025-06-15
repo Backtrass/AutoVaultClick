@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "autovaultclick",
+  "version": "1.0.0",
+  "name": "Auto Vault Click",
+  "description": "Automatically clicks Heavy Core in Ominous Vault GUI",
+  "authors": ["ChatGPT"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.autovault.fabric.AutoVaultClickMod"]
+  },
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "fabric": "*",
+    "minecraft": "1.21.1"
+  }
+}
